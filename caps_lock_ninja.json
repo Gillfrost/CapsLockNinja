@@ -2,6 +2,7 @@
   "title": "Caps Lock Ninja",
   "version": "1.0.0",
   "repo": "https://github.com/Gillfrost/CapsLockNinja",
+  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Gillfrost/CapsLockNinja/main/caps_lock_ninja.json",
   "maintainers": [
     "André Gillfrost"
   ],
