@@ -1,6 +1,6 @@
 {
   "title": "Caps Lock Ninja",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repo": "https://github.com/Gillfrost/CapsLockNinja",
   "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Gillfrost/CapsLockNinja/main/caps_lock_ninja.json",
   "maintainers": [
@@ -35,6 +35,51 @@
           "to_if_alone": [
             {
               "key_code": "escape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Both Shift to Caps",
+      "manipulators": [
+        {
+          "description": "Left and Right Shift to Caps",
+          "type": "basic",
+          "from": {
+            "key_code": "left_shift",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "caps_lock"
+            }
+          ]
+        },
+        {
+          "description": "Right and Left Shift to Caps",
+          "type": "basic",
+          "from": {
+            "key_code": "right_shift",
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ],
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "caps_lock"
             }
           ]
         }
