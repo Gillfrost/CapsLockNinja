@@ -8,10 +8,10 @@
   ],
   "rules": [
     {
-      "description": "Caps to Hyper/Esc, Hyper + Esc to Caps Lock",
+      "description": "Caps to Hyper/Esc",
       "manipulators": [
         {
-          "description": "CapsLock to Hyper, Esc if alone",
+          "description": "Caps to Hyper / Esc if alone",
           "type": "basic",
           "from": {
             "key_code": "caps_lock",
